@@ -13,7 +13,6 @@ function Navbar() {
           <Link className="nav-link" to="/services">Services</Link>
           <Link className="nav-link" to="/contact">Contact</Link>
         </div>
-
       </div>
     </nav>
   )
