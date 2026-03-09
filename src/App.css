@@ -1,0 +1,71 @@
+body{
+  margin:0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background:#eef2f7;
+}
+
+
+.navbar{
+  background:#742020 !important;
+  box-shadow:0 3px 10px rgba(193, 43, 43, 0.2);
+}
+
+.navbar-brand{
+  font-size:22px;
+  font-weight:bold;
+  color:white !important;
+}
+
+.nav-link{
+  color:#cbd5f5 !important;
+  margin-right:18px;
+  font-weight:500;
+}
+
+.nav-link:hover{
+  color:#38bdf8 !important;
+}
+
+
+.main-content{
+  padding:50px 8%;
+  min-height:90vh;
+}
+
+
+.page-title{
+  font-size:42px;
+  font-weight:bold;
+  color:#bd2222;
+  margin-bottom:20px;
+}
+
+.page-subtitle{
+  font-size:20px;
+  color:#8f1818;
+  max-width:900px;
+}
+
+.portal-card{
+  background:white;
+  border:none;
+  border-radius:12px;
+  padding:30px;
+  box-shadow:0 4px 12px rgba(137, 26, 26, 0.08);
+  transition:transform 0.2s;
+}
+
+.portal-card:hover{
+  transform:translateY(-5px);
+}
+
+.contact-form{
+  background:white;
+  padding:30px;
+  border-radius:12px;
+  box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+input, textarea{
+  margin-bottom:15px;
+}
